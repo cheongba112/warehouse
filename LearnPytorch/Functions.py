@@ -22,3 +22,5 @@ Data Parallelism is when we split the mini-batch of samples into multiple
 smaller mini-batches and run the computation for each of the smaller
 mini-batches in parallel.
 '''
+# https://pytorch.org/tutorials/beginner/former_torchies/parallelism_tutorial.html?highlight=gpu
+
