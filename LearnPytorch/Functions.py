@@ -9,14 +9,13 @@ model = model.to(device)
 x = x.to(device)
 y = y.to(device)
 
-
 # way 2 to use GPU
 model = model.cuda()
 x = x.cuda()
 y = y.cuda()
 
 
-# data parallelism
+# data parallelism (used for multi-GPU)
 '''
 Data Parallelism is when we split the mini-batch of samples into multiple
 smaller mini-batches and run the computation for each of the smaller
