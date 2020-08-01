@@ -56,8 +56,8 @@ if __name__ == '__main__':
 		optimizer.zero_grad()
 		loss.backward()
 		optimizer.step()
-		if not epoch % 100:
-			print(pred, loss)
+		# if not epoch % 100:
+		# 	print(pred, loss)
 
 	for p in pred:
 		print(round(p.tolist()[0]))

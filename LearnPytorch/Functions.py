@@ -23,3 +23,4 @@ mini-batches in parallel.
 '''
 # https://pytorch.org/tutorials/beginner/former_torchies/parallelism_tutorial.html?highlight=gpu
 
+ 
